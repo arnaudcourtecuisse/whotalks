@@ -1,0 +1,24 @@
+
+.session-data-container {
+  padding: 1em 2px;
+}
+
+.session-data-container > :not(:last-child) {
+  margin-bottom: 1em;
+}
+
+.groups-container {
+  display:flex;
+  flex-direction: column;
+  width: 100%;
+}
+.groups-container > :not(:last-child) {
+  margin-bottom: 1em;
+}
+.session-panel > :not(:last-child) {
+  margin-bottom: 1em;
+}
+.favored-group {
+  font-weight: bold;
+  margin-left: 1em;
+}

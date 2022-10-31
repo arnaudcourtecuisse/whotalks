@@ -1,0 +1,29 @@
+
+.config-panel .config-entry {
+  margin: 0.5em 10%;
+}
+
+fieldset {
+  border-radius: 10px;
+}
+
+.config-panel .config-entry > * {
+  display: inline-block;
+  width: 40%;
+}
+
+.config-panel .config-entry label {
+  text-align: right;
+  padding-right: 1em;
+}
+
+.config-panel .config-entry :not(label) {
+  text-align: left;
+}
+
+.config-panel .config-entry > .incrementor {
+  width: 100%;
+}
+.config-panel .config-entry > .incrementor> *{
+  width: 40%;
+}

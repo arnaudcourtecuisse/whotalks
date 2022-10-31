@@ -1,38 +1,64 @@
-.App {
+.app {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
+  min-height: 100vh;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.inclusive-white {
+  filter: invert(100%) sepia(9%) saturate(2%) hue-rotate(63deg) brightness(114%) contrast(100%);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inclusive-pink {
+  filter: invert(98%) sepia(83%) saturate(7353%) hue-rotate(285deg) brightness(101%) contrast(101%);
+}
+
+.inclusive-lightblue {
+  filter: invert(75%) sepia(65%) saturate(378%) hue-rotate(155deg) brightness(95%) contrast(97%);
+}
+
+.inclusive-brown {
+  filter: invert(20%) sepia(99%) saturate(400%) hue-rotate(348deg) brightness(94%) contrast(92%);
+}
+
+.inclusive-red {
+  filter: invert(13%) sepia(76%) saturate(5815%) hue-rotate(358deg) brightness(87%) contrast(117%);
+}
+
+.inclusive-orange {
+  filter: invert(78%) sepia(60%) saturate(6070%) hue-rotate(1deg) brightness(103%) contrast(105%);
+}
+
+.inclusive-yellow {
+  filter: invert(95%) sepia(99%) saturate(5959%) hue-rotate(347deg) brightness(97%) contrast(110%);
+}
+
+.inclusive-green {
+  filter: invert(20%) sepia(99%) saturate(4098%) hue-rotate(142deg) brightness(92%) contrast(98%);
+}
+
+.inclusive-blue {
+  filter: invert(22%) sepia(98%) saturate(5891%) hue-rotate(224deg) brightness(100%) contrast(108%);
+
+}
+
+.inclusive-purple {
+  filter: invert(12%) sepia(70%) saturate(4819%) hue-rotate(286deg) brightness(86%) contrast(115%);
+
+}
+
+@font-face {
+  font-family: "DSEG7";   /*Can be any text*/
+  src: local("DSEG7Classic-Regular"),
+    url("./fonts/DSEG7Classic-Regular.ttf") format("truetype");
+}
+
+input,select,button {
+  border: 1px solid darkgray;
+  border-radius: 0.2em;
+}
+
+select,button,.button {
+  cursor: pointer;
 }

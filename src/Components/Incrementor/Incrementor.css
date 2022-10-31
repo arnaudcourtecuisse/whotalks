@@ -1,0 +1,16 @@
+.incrementor * {
+  user-select: none;
+}
+.incrementor label {
+  margin-right: 1em;
+}
+
+.incrementor .button {
+  font-size: 1em;
+}
+
+.incrementor input {
+  text-align: right;
+  max-width: 3em;
+  font-size: 1em;
+}

@@ -1,0 +1,24 @@
+.stop-watch {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25em;
+  border-radius: 0.25em;
+}
+
+.stop-watch > :not(:last-child) {
+  margin-right: 0.5em;
+}
+
+.stop-watch .hidden {
+  display: none;
+}
+
+.stop-watch .time-display {
+  font-size: 2rem;
+}
+
+.stop-watch .button {
+  font-size: 2em;
+}
